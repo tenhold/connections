@@ -1,0 +1,45 @@
+words:
+  - POPPY
+  - CLOCK
+  - ROSE
+  - CONE
+  - IRIS
+  - EXPOSE
+  - CAMERA
+  - MUM
+  - CALCULATOR
+  - GRAMMY
+  - LENS
+  - RESUME
+  - PATE
+  - PUPIL
+  - CALENDER
+  - DATA
+categories:
+  - yellow:
+    solution: SMARTPHONE FEATURES BEGINNING WITH 'C'
+    words:
+      - CALCULATOR
+      - CALENDAR
+      - CAMERA
+      - CLOCK
+  - green: PARTS OF THE EYE
+    words:
+      - CONE
+      - IRIS
+      - LENS
+      - PUPIL
+  - blue:
+    solution: FAMILIAL NICKNAMES
+    words:
+      - DADA
+      - GRAMMY
+      - MUM
+      - POPPY
+  - purple:
+    solution: WORDS PRONOUNCED DIFFERENTLY WITH ACCENT MARKS
+    words:
+      - EXPOSE
+      - PATE
+      - RESUME
+      - ROSE
