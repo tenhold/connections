@@ -1,4 +1,3 @@
-require 'pry'
 require 'yaml'
 require 'colorize'
 require 'terminal-table'
