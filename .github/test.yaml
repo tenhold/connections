@@ -1,0 +1,21 @@
+name: Ruby Test
+
+on:
+  push:
+    branches:
+      - action_test
+  pull_request:
+    branches:
+      - action_test
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+  steps:
+    - uses: actions/checkout@v4
+    - name: set up
+      uses: ruby/setup-ruby@v1.0
+        with:
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+    - run: bundle exec rspec spec/*
